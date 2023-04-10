@@ -2,7 +2,7 @@ WORDS = {}
 lengths = []
 
 text = input("Text: ")
-TEXTS = text.split(" ")
+TEXTS = text.split(" " )
 for text in TEXTS:
     if text in WORDS.keys():
         WORDS[text] += 1
